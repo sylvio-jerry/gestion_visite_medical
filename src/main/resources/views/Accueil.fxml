@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="681.0" prefWidth="1025.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <right>
+            <Pane prefHeight="681.0" prefWidth="1025.0" styleClass="pane_center" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="336.0" fitWidth="1025.0">
+                     <image>
+                        <Image url="@../assets/homep.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="325.0" fitWidth="289.0" layoutX="711.0" layoutY="316.0">
+                     <image>
+                        <Image url="@../assets/homep2.jpg" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="325.0" fitWidth="289.0" layoutX="389.0" layoutY="316.0">
+                     <image>
+                        <Image url="@../assets/homep0.jpg" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="325.0" fitWidth="289.0" layoutX="61.0" layoutY="316.0">
+                     <image>
+                        <Image url="@../assets/homep4med.jpg" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="464.0" layoutY="574.0" prefHeight="37.0" prefWidth="161.0" style="-fx-alignment: center;" stylesheets="@../styles/Main.css" text="P A T I E N T" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Viner Hand ITC" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="text-white" />
+                        <String fx:value="mainColor" />
+                        <String fx:value="borderRadius" />
+                     </styleClass>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="784.0" layoutY="574.0" prefHeight="37.0" prefWidth="161.0" style="-fx-alignment: center;" stylesheets="@../styles/Main.css" text="V I S I T E" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Viner Hand ITC" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="text-white" />
+                        <String fx:value="mainColor" />
+                        <String fx:value="borderRadius" />
+                     </styleClass>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="125.0" layoutY="574.0" prefHeight="37.0" prefWidth="161.0" style="-fx-alignment: center;" stylesheets="@../styles/Main.css" text="M E D E C I N" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Viner Hand ITC" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="text-white" />
+                        <String fx:value="mainColor" />
+                        <String fx:value="borderRadius" />
+                     </styleClass>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label layoutX="405.0" layoutY="158.0" prefHeight="46.0" prefWidth="369.0" text="Hi - T s a b o">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <effect>
+                        <Reflection />
+                     </effect>
+                  </Label>
+                  <Label layoutX="841.0" layoutY="56.0" prefHeight="17.0" prefWidth="143.0" text="Ho Ahy,">
+                     <font>
+                        <Font name="Kristen ITC" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="841.0" layoutY="89.0" prefHeight="17.0" prefWidth="121.0" text="Ho Anao,">
+                     <font>
+                        <Font name="Kristen ITC" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="841.0" layoutY="118.0" prefHeight="17.0" prefWidth="121.0" text="Ho Antsika">
+                     <font>
+                        <Font name="Kristen ITC" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="884.0" layoutY="266.0" prefHeight="32.0" prefWidth="215.0" text="Ndao Leka !">
+                     <font>
+                        <Font name="Kristen ITC" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="810.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/paper_plane_96px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="810.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/paper_plane_96px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="808.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/paper_plane_96px.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

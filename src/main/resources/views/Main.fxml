@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="app" prefHeight="746.0" prefWidth="1250.0" stylesheets="@../styles/Main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hitsabo.controller.MainController">
+   <children>
+      <BorderPane layoutY="-2.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <left>
+            <AnchorPane prefHeight="677.0" prefWidth="224.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="14.0" layoutY="-5.0" prefHeight="682.0" prefWidth="237.0" styleClass="secondaryColor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-5.0">
+                     <children>
+                        <Pane fx:id="nav_accueil" layoutY="54.0" onMouseClicked="#openAccueilWindow" prefHeight="46.0" prefWidth="237.0" styleClass="item-link">
+                           <children>
+                              <Text fill="WHITE" layoutX="65.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A c c u e i l" wrappingWidth="103.13671875">
+                                 <font>
+                                    <Font name="System Italic" size="20.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="32.0" fitWidth="25.0" layoutX="26.0" layoutY="7.0">
+                                 <image>
+                                    <Image url="@../assets/home3.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="nav_visiter" layoutY="101.0" onMouseClicked="#openVisiterWindow" prefHeight="46.0" prefWidth="237.0" styleClass="item-link">
+                           <children>
+                              <Text fill="WHITE" layoutX="65.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="V i s i t e " wrappingWidth="82.13671875">
+                                 <font>
+                                    <Font name="System Italic" size="20.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="30.0" fitWidth="20.0" layoutX="26.0" layoutY="6.0">
+                                 <image>
+                                    <Image url="@../assets/visite00.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Separator layoutY="621.0" prefHeight="11.0" prefWidth="237.0" />
+                        <Separator layoutY="2.0" prefHeight="6.0" prefWidth="237.0" />
+                        <Pane fx:id="nav_medecin" layoutY="147.0" onMouseClicked="#openMedecinWindow" prefHeight="46.0" prefWidth="237.0" styleClass="item-link">
+                           <children>
+                              <Text fill="WHITE" layoutX="62.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M é d e c i n" wrappingWidth="133.13671875">
+                                 <font>
+                                    <Font name="System Italic" size="20.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="24.0" layoutY="-1.0">
+                                 <image>
+                                    <Image url="@../assets/doctor.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="nav_patient" layoutY="193.0" onMouseClicked="#openPatientWindow" prefHeight="46.0" prefWidth="237.0" styleClass="item-link">
+                           <children>
+                              <Text fill="WHITE" layoutX="62.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P a t i e n t" wrappingWidth="112.13671875">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="24.0" layoutY="-1.0">
+                                 <image>
+                                    <Image url="@../assets/patient000.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="nav_exit" layoutX="5.0" layoutY="629.0" onMouseClicked="#onExitApp" prefHeight="46.0" prefWidth="232.0" styleClass="item-link">
+                           <children>
+                              <Text fill="WHITE" layoutX="85.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quitter" wrappingWidth="112.13671875">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="23.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../assets/icons8_export_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </left>
+         <top>
+            <AnchorPane prefHeight="69.0" prefWidth="1250.0" styleClass="mainColor" stylesheets="@../styles/Main.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="pseudo" alignment="CENTER" layoutX="976.0" layoutY="23.0" prefHeight="27.0" prefWidth="80.0" text="Admin" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutY="1.0" prefHeight="67.0" prefWidth="238.0" styleClass="side-bar">
+                     <children>
+                        <Text fill="WHITE" layoutX="71.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hi - T s a b o" wrappingWidth="144.47005462646484" y="10.0">
+                           <font>
+                              <Font name="MS Outlook" size="18.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="14.0" layoutY="13.0">
+                           <image>
+                              <Image url="@../assets/add.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="1056.0" layoutY="19.0">
+                     <image>
+                        <Image url="@../assets/sily%20(2).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="current_date" alignment="CENTER" layoutX="1102.0" layoutY="22.0" prefHeight="27.0" prefWidth="134.0" text="Jerry" textFill="WHITE">
+                     <font>
+                        <Font name="MS Outlook" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane fx:id="content" prefHeight="677.0" prefWidth="1010.0" styleClass="text-white" stylesheets="@../styles/Main.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="heure" alignment="CENTER" layoutX="901.0" layoutY="23.0" prefHeight="27.0" prefWidth="80.0" text="Heure" textFill="#030303">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+.login_left_side{
+	-fx-background-image: url('../assets/login_bg.jpg'); 
+	-fx-background-size: cover;
+}
+.login_right_side{
+	-fx-background-color: linear-gradient(to bottom, rgba(27,13,38,0.51) 0%, rgba(179,138,241,0.13) 30%, rgba(178,164,225,0.52) 54%, rgba(177,195,206,1) 84%);
+}
+.login_button,.skip_forgot_password{
+	-fx-background-color: #199A40;
+	 -fx-border-radius:50px;
+	 -fx-padding: 2 0 2 0;
+	 -fx-font-size: 17px;
+	 -fx-color:white;
+}
+.skip_forgot_password{
+	-fx-background-color: #C83838;
+}
+.skip_forgot_password:hover{
+	-fx-background-color: #820D0D;
+}
+.login_button:hover{
+	-fx-background-color: #083D18;
+}
+.input_field_login{
+	-fx-background-color: transparent;
+	-fx-border-color: transparent transparent #6A5858 transparent;
+}

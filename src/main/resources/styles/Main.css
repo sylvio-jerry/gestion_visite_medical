@@ -1,0 +1,87 @@
+.side-bar{
+	//-fx-background-color: rgba(13, 13, 14, 0.884);
+	//-fx-background-color: #659b97;
+	-fx-background-color: #22605b;
+}
+.top-bar{
+	-fx-background-color: #659b97;
+}
+.bg-dark{
+	-fx-background-color: black;
+	-fx-text-fill: white; 
+}
+.bg-image{
+	-fx-background-image: url("assets/login_bg.jpg");
+}
+.bg-gray{
+	-fx-background-color: gray;
+}
+.bg-white{
+	-fx-background-color: white;
+}
+.text-white{
+	-fx-text-fill: white; 
+}
+.text-red{
+	-fx-text-fill: rgba(185, 29, 29); 
+}
+.btn-success{
+	-fx-cursor: hand;
+	-fx-background-color: rgb(9, 126, 19); 
+	-fx-text-fill: white;
+}
+.btn-warning{
+	-fx-cursor: hand;
+	-fx-background-color: rgb(197, 178, 4); 
+	-fx-text-fill: white;
+}
+.btn-danger{
+	-fx-cursor: hand;
+	-fx-background-color: rgba(185, 29, 29); 
+	-fx-text-fill: white;
+}
+.btn-primary{
+	-fx-cursor: hand;
+	-fx-background-color: rgb(14, 18, 141); 
+	-fx-text-fill: white;
+}
+.btn-dark{
+	-fx-cursor: hand;
+	-fx-background-color: black;
+	-fx-text-fill: white; 
+}
+.text-black{
+	-fx-text-fill: black; 
+}
+.text-green{
+	-fx-text-fill: green; 
+}
+.text-blue{
+	-fx-text-fill: blue; 
+}
+.item-link{
+	/*-fx-background-radius: 15px;*/
+	/*-fx-background-color: red;*/
+	-fx-cursor: hand;
+}
+.item-link:hover{
+	-fx-background-color: #659b97;
+}
+.item-link:active{
+	-fx-background-color: #659b97;
+}
+.table-cell{
+	-fx-font-size: 14px;
+}
+
+.mainColor{
+    -fx-background-color: #659b97;
+}
+
+.secondaryColor{
+    -fx-background-color: #22605b;
+}
+
+.borderRadius{
+    -fx-background-radius: 15px;
+}
